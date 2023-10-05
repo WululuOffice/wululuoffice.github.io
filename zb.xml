@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zbpool>
+    <!-- 战机写在这里 -->
+    <ZB>
+        <name>神圣誓约</name>
+        <location>战机</location>
+        <lebel>S</lebel>
+        <introduce>特技：贯穿<br/>刻印：散射<br/>通过逆转重力的设计，承载着守望和自由之光，赋予人类超越现实的力量，当以神圣誓约，缔造星空希望</introduce>
+    </ZB>
+    <!-- 装甲写在这里 -->
+    <ZB>
+        <name></name>
+        <location></location>
+        <lebel></lebel>
+        <introduce></introduce>
+    </ZB>
+    <!--副武器写在这里-->    
+    <ZB>
+        <name></name>
+        <location></location>
+        <lebel></lebel>
+        <introduce></introduce>
+    </ZB>
+    <!--僚机写在这里-->
+    <ZB>
+        <name></name>
+        <location></location>
+        <lebel></lebel>
+        <introduce></introduce>
+    </ZB>
+    <!--其他物品写在这里-->
+    <ZB>
+        <name></name>
+        <location></location>
+        <lebel></lebel>
+        <introduce></introduce>
+    </ZB>
+<!--
+    模板
+    <ZB>
+        <name></name>
+        <location></location>
+        <lebel></lebel>
+        <introduce></introduce>
+    </ZB>
+-->
+</Zbpool>

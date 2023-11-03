@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html  lang="zh-cn">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>次元之翼抽奖系统</title>
+	
+	<link rel="stylesheet" href="https://wululuoffice.github.io/SuperCss.css">
+	<style>
+		.lifts{text-align:left;}
+		.rights{text-align:right;}
+	</style>
+</head>
+<body>
+    <div class="container">
+	      <h2>次元之翼抽奖系统</h2>
+	      <div><text>本页面由次元之翼管理组提供</text></div>
+        <label for="AcID">活动编号：</label>
+         <input id="AcID">
+        <label for="plays">参与人数：</label>
+        <input type="number" id="plays">
+        <div id="result">&nbsp;</div>
+        button type="button" onclick="rands()">开始随机</button>
+      <script>
+            function rands(){
+              var players=parseInt(document.getElementById("plays").value);var randid = parseInt(Math.random() * players + 1);
+              console.log("randomize player is" + randid);document.getElementById("result").innerHTML ="中奖编号为" + randid;return randid;
+            }
+      </script>

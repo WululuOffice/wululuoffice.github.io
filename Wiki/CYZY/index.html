@@ -107,6 +107,26 @@ button:hover{background-color:#cc00ff;}
         </table>
               </div>
     </main>
+<script>
+	document.addEventListener('contextmenu', event => event.preventDefault());
+
+// 要知耻，所以屏蔽代码
+function disableF12() {
+    if (document.addEventListener) {
+        document.addEventListener('keydown', f12block);
+    } else if (document.attachEvent) {
+        document.attachEvent('onkeydown', f12block);
+    }
+}
+
+function f12block(e) {
+    if (e.keyCode == 123) {
+        e.preventDefault();
+        return false;
+    }
+}
+
+disableF12();</script>
    
 </body>
 </html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  lang="zh-cn">
+<head>
+	<meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>战神模板</title>
+  <style>
+/*CSS*/
+body{font-family:Arial,sans-serif;background-color:#f0f0f0;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;}
+.container{max-width:400px;padding:20px;background-color:#fff;border:1px solid #ccc;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+h2{text-align:center;color:#333;}
+div.csi{text-align:center;}
+p{text-align:center;color:#666;}
+label{display:block;margin-bottom:10px;font-weight:bold;color:#333;}
+input[type="number"]{width:100%;padding:8px;border:1px solid #ccc;border-radius:3px;outline:none;}
+/* button{display:block;width:100%;padding:10px;margin-top:20px;background-color:#cc00ff;color:#fff;border:none;border-radius:3px;cursor:pointer;}
+button:hover{background-color:#cc00ff;} */
+#result{text-align:center;font-weight:bold;margin-top:20px;}
+#result1{text-align:center;font-weight:bold;margin-top:20px;}
+#msgs{text-align:center;font-weight:bold;margin-top:20px;}
+/* #msgs1{text-align:center;font-weight:bold;margin-top:20px;} */
+#HPS{text-align:center;font-weight:bold;margin-top:20px;}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div><h2><text id="zbn"></text><text> - 装备百科</text></h2></div>
+        <div>
+          <div><text>装备类型：</text><text id="zblx"></text></div>
+          <div><text>特技：</text><text id="tj"></text></div>
+          <div><text>异能：</text><text id="yn"></text></div>
+          <div>
+            <div><text>装备介绍：</text></div>
+            <div><text id="jss"></text></div>
+            <div><text id="jn"></text><div>
+          
+          </div>
+        </div>
+      </div>
+    
+    <script src="js/lzclp.js"></script>
+</body>
+</html>

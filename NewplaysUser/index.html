@@ -6,7 +6,7 @@
     <title>云上新人手册</title>
     <style>
         body{font-family:'Times New Roman','仿宋_GB2312', Times, serif;background-color:#f0f0f0;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;}
-        .container{max-width:400px;padding:20px;background-color:#fff;border:1px solid #ccc;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+        .container{max-width:350px;padding:20px;background-color:#fff;border:1px solid #ccc;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
         h2{text-align:center;color:#333;}
         div.csi{text-align:center;}
         p{text-align:center;color:#666;}
@@ -80,7 +80,7 @@
         <p>二、注册</p>
         <p>玩家可以<a href="https://wj.qq.com/s2/15113006/9dd7/">点击这里</a>查看新人账号注册指南(露露自己写的，请仔细阅读)</p>
         <p>注册邮件内容详见下图：</p>
-        <div><img alt="邮件内容图" src="img/zcfs.png" width="400px"/></div>
+        <div><img alt="邮件内容图" src="img/zcfs.png" width="350px"/></div>
         <p>注册自查</p>
         <p>多久回复？24小时内回复，超过24小时没回复就自己检查问题 </p>
         <p>---是不是格式不对（发邮件的邮箱是不是和群里qq对应？）</p>
@@ -175,7 +175,7 @@
         window.onload = function() {
             var webver = GetUrlParam("webver");//新人手册版本号，利于刷新缓存与版本更新
             var gamever = GetUrlParam("gamever");//游戏版本号，注意配置
-            var inwebver = "240817"//网站版本号
+            var inwebver = "24081702"//网站版本号
             var ingamever = "107Beta"//游戏版本号，注意配置
             if (webver!=inwebver||gamever!=ingamever){
                 var a = '?form=indexcdx&webver=' + inwebver+'&gamever='+ingamever + '&u=';
